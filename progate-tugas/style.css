@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    box-sizing:border-box;
+}
+a {
+    text-decoration: none;
+  }
+body{
+    font-family: sans-serif;
+    color:#fff;
+    margin: 0;
+<<<<<<< HEAD
+    
+   
+    background-color: rgb(255, 255, 255);
+}
+
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    height: 10vh;
+    background-color: purple;
+}
+
+nav div {
+    display: flex;
+  
+    padding-left: 50;
+    padding-right: 20;
+}
+
+nav div img {
+    width: 300;
+}
+
+nav div i {
+    width: 180;
+    color: white;
+}
+
+nav .left-side {
+    flex: 50%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav .right-side {
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/* bagian container */
+
+=======
+    padding: 0;    
+}
+li{
+    list-style: none;
+}
+/* Container */
+>>>>>>> d76b644714077de5e867bc802e8033f5fdcfd031
+.container {
+    width:100%;
+    margin: 0 auto;
+    padding:0px 20px;
+}
+
+/* Header */
+/* ---- */
+header{
+    height:55px;
+    width:100%;
+    background-color: #152951;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:10;
+}
+/* ---- */
+.logo{
+    width:170px;
+    margin:10px 0px;
+}
+/* ---- */
+.header-left{
+    float:left;
+}
+/* ---- */
+.header-right{
+    float:right;
+    margin-top:10px;
+    font-size:14px;
+}
+/* ---- */
+.btn {
+    padding: 10px 13px;
+    color: white;
+    display: inline-block;
+    opacity: 1;
+    border-radius: 80px;
+    text-align: center;
+    height: 35px;
+}
+/* ---- */
+.phone{
+      background-color: #284A6E;
+      width:145px;      
+ }
+    .phone:hover{
+        background-color: #4d6d8f ;
+        opacity: 0.9;
+        color: #b8e4e7;
+        transition: all 0.7s;
+    }
+    .phone:active{
+        position:relative;
+        top:1px;
+        font-size: 13px;        
+    }
+.fa{
+    margin-right: 10px;
+ }
+ /* ---- */
+.klik {
+    padding: 10px 0px;
+    color: white;
+    display: inline-block;
+    opacity: 1;
+    text-align: center;
+}
+<<<<<<< HEAD
+
+.container img {
+    width: 100%;
+    height: 50%
+=======
+.klik:hover{
+    opacity: 0.9;
+    color: #01909e;    
+    transition: all 0.5s;
+}
+/* ---- */
+.beranda{
+    margin-right:25px;
+}
+.testimoni{
+    margin-right:25px;
+>>>>>>> d76b644714077de5e867bc802e8033f5fdcfd031
+}
+
+
+/* Main */    
+/* ---- */
+.main1{
+    background-size:cover;
+    padding:200px 0px;
+    text-align:center;
+    color:white;
+    background-image: url(assets/pict-top1.png);
+    position:relative;
+    top:50px;
+    left:0px;
+    right:0px;
+}
+.main1 h1{
+    font-size:50px;
+    margin-bottom: 10px;
+}
+.main1 h3{
+    font-weight:normal;
+}
+/* Keatas batas aku update================================================== */
+
+/* bagian card */
+
+.bg {
+    background : url('assets/logo1.png');
+    background: rgb(213, 226, 235);
+    height: 90vh;
+}
+
+.bg h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 30;
+}
+
+.myproject .container-projects {
+    padding-left: 50;
+    margin-bottom: 30;
+    margin-top: 20;
+    margin-right: 20;
+    margin-left: 20;
+    padding-right: 50;
+}
+
+.myproject .container-projects .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.myproject .container-projects .flex-container .card {
+    width: 350px;
+    margin-bottom: 5px;
+    background: white;
+    box-shadow: 3px 3px 3px 1px black;
+    padding-bottom: 10;
+}
+
+.myproject .container-projects .flex-container .card img{
+    display: block;
+    width: 350px;
+    height: 250px;
+    cursor: pointer;
+    border-radius: 3px;
+    object-fit: cover;
+    transition-duration: 0.5s ease-in-out;
+   
+}
+
+
+.myproject .container-projects .flex-container .card img:hover{
+    width: 350px;
+    height: 250;
+    border-radius: 3px;
+    object-fit: cover;
+    transition-duration: 0.5s ease-in-out;
+    transform: scale(1.1);
+   
+}
+
+
+
+
+.myproject .container-projects .flex-container .card h2 a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding-left: 10;
+}
+
+.myproject .container-projects .flex-container .card .container-tour h5 {
+    display: inline;
+    padding-left: 10;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-right: 36px;
+    margin-top: 100px;
+}
+
+.myproject .container-projects .flex-container .card .container-tour h6 {
+    display: inline;
+    padding-left: 10;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-right: 36px;
+}
+
+.myproject .container-projects .flex-container .card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: transparent;
+    text-shadow: 0 0 0px black;
+    padding-left: 10;
+}
+
+.myproject .container-projects .flex-container .btn-group {
+    margin-top: 10;
+    padding-left: 10;
+}
+
+.myproject .container-projects .flex-container .card .btn-buttom {
+    padding: 5px 40px;
+    border-radius: 10px;
+    background: black;
+    text-decoration: none;
+    color: white;
+    margin-right: 10;
+    box-shadow: 2px 2px 2px 0px white;
+}
+
+
+/* bagian card-1 */
+
+.bg-1 {
+    background:  rgb(219, 130, 241);
+    height: 90vh;
+}
+
+.bg-1 h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 30;
+}
+
+.myproject-1 .container-projects-1 {
+    padding-left: 50;
+    margin-bottom: 30;
+    margin-top: 30;
+    margin-right: 30;
+    margin-left: 30;
+    padding-right: 50;
+}
+
+.myproject-1 .container-projects-1 .flex-container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50;
+}
+
+.myproject-1 .container-projects-1 .flex-container .card-1 {
+    width: 350px;
+    margin-bottom: 5px;
+    background: white;
+    box-shadow: 3px 3px 3px 1px black;
+    padding-bottom: 10;
+}
+
+.myproject-1 .container-projects-1 .flex-container-1 figure img {
+    width: 350px;
+    height: 250px;
+    border-radius: 7%;
+    object-fit: cover;
+
+    
+}
+
+
+.btn-group-1 {
+    margin-top: 10;
+    text-align: center;
+    margin: auto;
+}
+
+.btn-buttom-1 {
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: black;
+    text-decoration: none;
+    color: white;
+}
+
+.bg-2 .container-bg-2 {
+    border: 10px solid auto;
+    background-color: red;
+    margin: 30%;
+    margin-top: 10;
+    border-radius: 20px;
+}
+
+.bg-2 h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 30;
+}
+
+.bg-2 h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-2 p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan');
+.text {
+    font-size: 25px;
+    padding: 0 35px;
+    float: left;
+    margin-top: 20px;
+}
+
+.berita {
+    background-color: purple;
+    color: #f5f6fa;
+    border-radius: 0 85px 85px 0;
+}
+
+.wisata {
+    background-color: purple;
+    color: #f5f6fa;
+    border-radius: 0 85px 85px 0;
+}
+
+.jogja {
+    color: #f5f6fa;
+}
+
+.text {
+    animation-name: slide;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        margin-left: -250px;
+    }
+    100% {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        margin-left: -250px;
+    }
+    100% {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+footer {
+    background: #800080;
+    height: auto;
+    width: 100%;
+    font-family: "sans-serif";
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 20px auto;
+    line-height: 28px;
+    font-size: 20px;
+}
+
+.sosialmedia {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0px 48px 0px;
+}
+
+.sosialmedia li {
+    margin: 0px 10px;
+}
+
+.sosialmedia a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sosialmedia a i {
+    font-size: 18px;
+    transition: color .4s ease;
+}
+
+.sosialmedia a:hover i {
+    color: darkgrey;
+}
+
+.footer-bottom {
+    background: #4d004d;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 17px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+<<<<<<< HEAD
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  img{
+      
+  }
+.img body{
+    background: url('assets/pantai.jpg');
+    background-position: center;
+}
+
+figure {
+    float: right;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+=======
+>>>>>>> d76b644714077de5e867bc802e8033f5fdcfd031
